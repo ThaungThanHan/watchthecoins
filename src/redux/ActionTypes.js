@@ -1,0 +1,1 @@
+export const GET_TOP_5_COINS = "GET_TOP_5_COINS"

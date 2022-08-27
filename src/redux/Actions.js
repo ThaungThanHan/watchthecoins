@@ -5,7 +5,7 @@ import axios from "axios"
 export const getTop5Coins = () => {
     return(dispatch)=>{
             console.log("RAN!!!")
-            axios.get(`https://api.coinlore.net/api/tickers/?start=1&limit=5`).then(res=>{
+            axios.get(`https://api.coinlore.net/api/ticker/?id=90,80,48543,518,2710`).then(res=>{
                 if(res.data){
                     dispatch({
                         type:GET_TOP_5_COINS,

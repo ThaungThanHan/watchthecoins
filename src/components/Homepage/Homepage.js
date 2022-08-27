@@ -38,7 +38,6 @@ const Homepage = () => {
             return null
         }
     }
-    console.log(checkIfGreenRed(coinData.percent_change_7d))
     return(
         <>
         <BottomSheet
